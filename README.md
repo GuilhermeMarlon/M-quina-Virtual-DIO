@@ -48,3 +48,38 @@ A criação de uma máquina virtual no Azure é um processo simples e rápido. C
 Este repositório é licenciado sob a licença MIT. Você é livre para usar, modificar e distribuir o conteúdo deste repositório.
 
 
+# 🧱 Componentes de Arquitetura do Azure
+
+A arquitetura da Microsoft Azure é composta por diversos serviços e recursos que trabalham em conjunto para oferecer soluções escaláveis, seguras e de alta disponibilidade. Abaixo estão os principais componentes:
+## 1. Recursos (Resources)
+
+São os elementos individuais que você cria no Azure, como máquinas virtuais, bancos de dados, redes virtuais, entre outros.
+## 2. Grupos de Recursos (Resource Groups)
+
+Servem para organizar e gerenciar recursos relacionados. Um grupo de recursos pode conter vários recursos que compartilham o mesmo ciclo de vida.
+## 3. Assinaturas (Subscriptions)
+
+São usadas para organizar o acesso e o faturamento dos serviços. Cada assinatura possui limites e permissões definidas.
+## 4. Azure Resource Manager (ARM)
+
+É a camada de gerenciamento do Azure. Ele permite criar, atualizar e deletar recursos de forma organizada e segura, além de aplicar políticas e templates (ARM Templates).
+## 5. Regiões e Zonas de Disponibilidade
+
+    Regiões: locais geográficos onde os datacenters do Azure estão distribuídos (ex: Brazil South, East US).
+
+    Zonas de Disponibilidade: áreas físicas independentes dentro de uma região para garantir alta disponibilidade.
+
+## 6. Máquinas Virtuais (Virtual Machines - VMs)
+
+Permitem a execução de sistemas operacionais e aplicações em servidores hospedados na nuvem.
+## 7. Redes Virtuais (Virtual Networks - VNets)
+
+Permitem a comunicação segura entre recursos do Azure e com redes locais.
+## 8. Banco de Dados (Azure SQL, Cosmos DB, etc.)
+
+Serviços gerenciados para armazenar dados estruturados e não estruturados, com alta escalabilidade e integração com outras soluções Azure.
+## 9. Serviços de Identidade (Azure Active Directory)
+
+Gerenciam usuários, autenticação e permissões de acesso aos recursos e aplicações.
+
+
