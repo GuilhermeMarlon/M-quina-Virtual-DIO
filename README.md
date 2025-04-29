@@ -118,3 +118,82 @@ O ExpressRoute é um serviço que permite estender sua rede local até o Azure p
     Ideal para empresas que precisam de alto desempenho em integração entre nuvem e data center local.
 
 
+# 🔐 Identidade, Acesso e Segurança no Azure
+
+A segurança na nuvem é baseada em princípios sólidos que garantem a proteção de dados, sistemas e identidades contra acessos não autorizados. A seguir, veja uma explicação detalhada dos principais conceitos:
+# 🛡️ Defesa em Profundidade
+
+Defesa em profundidade é uma estratégia de segurança que utiliza múltiplas camadas de proteção, dificultando o progresso de um ataque ao sistema. A ideia central é que, mesmo que uma camada seja violada, outras estarão presentes para impedir o acesso não autorizado.
+
+## Camadas comuns da defesa em profundidade:
+
+    Física: segurança do datacenter.
+
+    Perímetro: firewalls, IDS/IPS, roteadores seguros.
+
+    Rede: segmentação de rede, NSGs.
+
+    Computação: VMs seguras, patches atualizados.
+
+    Aplicação: validação de entrada, WAFs.
+
+    Acesso e identidade: autenticação, autorização.
+
+    Dados: criptografia, classificação, controle de acesso.
+
+# 👁️‍🗨️ Autenticação Multifator (MFA)
+
+ MFA (Multi-Factor Authentication) é uma camada extra de segurança que exige dois ou mais fatores para autenticar um usuário:
+
+    Algo que você sabe: senha ou PIN.
+
+    Algo que você possui: celular, token ou smartcard.
+
+    Algo que você é: biometria (impressão digital, reconhecimento facial, etc.).
+
+Essa abordagem reduz significativamente o risco de acessos indevidos, mesmo quando senhas são comprometidas.
+# 🌐 Camada de Perímetro (Perimeter Layer)
+
+A camada de perímetro na defesa em profundidade tem o papel de bloquear ou detectar ataques vindos da rede externa antes que eles atinjam a infraestrutura interna.
+
+## Ferramentas e práticas incluem:
+
+    Firewalls.
+
+    IDS/IPS (Sistemas de detecção e prevenção de intrusão).
+
+    VPNs.
+
+    DDoS Protection.
+
+    Edge routers seguros.
+
+Ela representa a primeira linha de defesa contra ameaças externas.
+# 🧾 Microsoft Entra ID (antigo Azure AD)
+
+Microsoft Entra ID é o serviço de gerenciamento de identidades e acesso baseado em nuvem do Azure. Ele permite autenticar e autorizar usuários e dispositivos em ambientes híbridos (nuvem e local).
+
+## Principais recursos:
+
+    Autenticação e SSO.
+
+    Autenticação multifator (MFA).
+
+    Acesso condicional.
+
+    Integração com milhares de aplicativos SaaS.
+
+    Gerenciamento de grupos e funções.
+
+O Entra ID ajuda a aplicar políticas de segurança, controle de acesso e governança de identidade de forma centralizada.
+# 🧭 Conceitos-Chave: Identidade, Acesso e Segurança
+
+    Identidade: quem você é (usuário, dispositivo ou sistema). Ex: conta de usuário.
+
+    Acesso: o que você pode fazer ou ver. Ex: permissões em recursos.
+
+    Segurança: mecanismos que protegem o ambiente contra acessos não autorizados, vazamentos ou ataques. Ex: criptografia, autenticação, políticas de acesso.
+
+Esses três pilares são a base de qualquer arquitetura segura na nuvem.
+
+
